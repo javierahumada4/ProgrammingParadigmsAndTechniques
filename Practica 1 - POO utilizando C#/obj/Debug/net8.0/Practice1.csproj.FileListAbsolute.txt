@@ -1,0 +1,15 @@
+C:\Users\javie\OneDrive\Documentos\TERCERO\ProgrammingParadigmsAndTechniques\ProgrammingParadigmsAndTechniques\Practica 1 - POO utilizando C#\bin\Debug\net8.0\Practice1.exe
+C:\Users\javie\OneDrive\Documentos\TERCERO\ProgrammingParadigmsAndTechniques\ProgrammingParadigmsAndTechniques\Practica 1 - POO utilizando C#\bin\Debug\net8.0\Practice1.deps.json
+C:\Users\javie\OneDrive\Documentos\TERCERO\ProgrammingParadigmsAndTechniques\ProgrammingParadigmsAndTechniques\Practica 1 - POO utilizando C#\bin\Debug\net8.0\Practice1.runtimeconfig.json
+C:\Users\javie\OneDrive\Documentos\TERCERO\ProgrammingParadigmsAndTechniques\ProgrammingParadigmsAndTechniques\Practica 1 - POO utilizando C#\bin\Debug\net8.0\Practice1.dll
+C:\Users\javie\OneDrive\Documentos\TERCERO\ProgrammingParadigmsAndTechniques\ProgrammingParadigmsAndTechniques\Practica 1 - POO utilizando C#\bin\Debug\net8.0\Practice1.pdb
+C:\Users\javie\OneDrive\Documentos\TERCERO\ProgrammingParadigmsAndTechniques\ProgrammingParadigmsAndTechniques\Practica 1 - POO utilizando C#\obj\Debug\net8.0\Practice1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\javie\OneDrive\Documentos\TERCERO\ProgrammingParadigmsAndTechniques\ProgrammingParadigmsAndTechniques\Practica 1 - POO utilizando C#\obj\Debug\net8.0\Practice1.AssemblyInfoInputs.cache
+C:\Users\javie\OneDrive\Documentos\TERCERO\ProgrammingParadigmsAndTechniques\ProgrammingParadigmsAndTechniques\Practica 1 - POO utilizando C#\obj\Debug\net8.0\Practice1.AssemblyInfo.cs
+C:\Users\javie\OneDrive\Documentos\TERCERO\ProgrammingParadigmsAndTechniques\ProgrammingParadigmsAndTechniques\Practica 1 - POO utilizando C#\obj\Debug\net8.0\Practice1.csproj.CoreCompileInputs.cache
+C:\Users\javie\OneDrive\Documentos\TERCERO\ProgrammingParadigmsAndTechniques\ProgrammingParadigmsAndTechniques\Practica 1 - POO utilizando C#\obj\Debug\net8.0\Practice1.sourcelink.json
+C:\Users\javie\OneDrive\Documentos\TERCERO\ProgrammingParadigmsAndTechniques\ProgrammingParadigmsAndTechniques\Practica 1 - POO utilizando C#\obj\Debug\net8.0\Practice1.dll
+C:\Users\javie\OneDrive\Documentos\TERCERO\ProgrammingParadigmsAndTechniques\ProgrammingParadigmsAndTechniques\Practica 1 - POO utilizando C#\obj\Debug\net8.0\refint\Practice1.dll
+C:\Users\javie\OneDrive\Documentos\TERCERO\ProgrammingParadigmsAndTechniques\ProgrammingParadigmsAndTechniques\Practica 1 - POO utilizando C#\obj\Debug\net8.0\Practice1.pdb
+C:\Users\javie\OneDrive\Documentos\TERCERO\ProgrammingParadigmsAndTechniques\ProgrammingParadigmsAndTechniques\Practica 1 - POO utilizando C#\obj\Debug\net8.0\Practice1.genruntimeconfig.cache
+C:\Users\javie\OneDrive\Documentos\TERCERO\ProgrammingParadigmsAndTechniques\ProgrammingParadigmsAndTechniques\Practica 1 - POO utilizando C#\obj\Debug\net8.0\ref\Practice1.dll

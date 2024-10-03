@@ -1,0 +1,5 @@
+C:\Users\javie\OneDrive\Documentos\TERCERO\ProgrammingParadigmsAndTechniques\ProgrammingParadigmsAndTechniques\Paradigmas2\obj\Debug\net8.0\Paradigmas2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\javie\OneDrive\Documentos\TERCERO\ProgrammingParadigmsAndTechniques\ProgrammingParadigmsAndTechniques\Paradigmas2\obj\Debug\net8.0\Paradigmas2.AssemblyInfoInputs.cache
+C:\Users\javie\OneDrive\Documentos\TERCERO\ProgrammingParadigmsAndTechniques\ProgrammingParadigmsAndTechniques\Paradigmas2\obj\Debug\net8.0\Paradigmas2.AssemblyInfo.cs
+C:\Users\javie\OneDrive\Documentos\TERCERO\ProgrammingParadigmsAndTechniques\ProgrammingParadigmsAndTechniques\Paradigmas2\obj\Debug\net8.0\Paradigmas2.csproj.CoreCompileInputs.cache
+C:\Users\javie\OneDrive\Documentos\TERCERO\ProgrammingParadigmsAndTechniques\ProgrammingParadigmsAndTechniques\Paradigmas2\obj\Debug\net8.0\Paradigmas2.sourcelink.json
