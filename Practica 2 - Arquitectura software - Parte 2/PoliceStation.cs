@@ -33,18 +33,6 @@
             Console.WriteLine(WriteMessage($"Infractor vehicle with plate {infractorPlate}: Alert Activated. All units in patroll start pursuing."));
         }
 
-        public void DeactivateAlert(string infractorPlate)
-        {
-            alert = false;
-
-            foreach (PoliceCar policeCar in policeCars)
-            {
-                policeCar.StopPursuing(infractorPlate);
-            }
-
-            Console.WriteLine(WriteMessage($"Infractor vehicle with plate {infractorPlate}: Alert Deactivated. All units in patroll stop pursuing."));
-        }
-
         public string WriteMessage(string message)
         {
             return $"{message}";

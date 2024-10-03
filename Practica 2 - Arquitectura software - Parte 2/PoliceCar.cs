@@ -1,4 +1,6 @@
-﻿namespace Practice2
+﻿using System.Diagnostics.Tracing;
+
+namespace Practice2
 {
     class PoliceCar : Vehicle
     {
@@ -6,11 +8,14 @@
         private const string typeOfVehicle = "Police Car"; 
         private bool isPatrolling;
         private SpeedRadar speedRadar;
+        private bool isPursuing;
+        private string? pursuingVehiclePlate;
 
         public PoliceCar(string plate) : base(typeOfVehicle, plate)
         {
             isPatrolling = false;
             speedRadar = new SpeedRadar();
+            isPursuing = false;
         }
 
         public void UseRadar(Vehicle vehicle)
@@ -20,6 +25,11 @@
                 speedRadar.TriggerRadar(vehicle);
                 string meassurement = speedRadar.GetLastReading();
                 Console.WriteLine(WriteMessage($"Triggered radar. Result: {meassurement}"));
+
+                if (meassurement == "Catched above legal speed.")
+                {
+
+                }
             }
             else
             {
@@ -60,12 +70,8 @@
 
         public void StartPursuing(string infractorPlate)
         {
-
-        }
-
-        public void StopPursuing(string infractorPlate)
-        {
-
+            isPursuing = true;
+            pursuingVehiclePlate = infractorPlate;
         }
 
         public void PrintRadarHistory()
