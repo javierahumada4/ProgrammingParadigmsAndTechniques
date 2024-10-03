@@ -1,4 +1,4 @@
-﻿namespace Practice1
+﻿namespace Practice2
 {
     class PoliceCar : Vehicle
     {
@@ -56,6 +56,16 @@
             {
                 Console.WriteLine(WriteMessage("was not patrolling."));
             }
+        }
+
+        public void StartPursuing(string infractorPlate)
+        {
+
+        }
+
+        public void StopPursuing(string infractorPlate)
+        {
+
         }
 
         public void PrintRadarHistory()
