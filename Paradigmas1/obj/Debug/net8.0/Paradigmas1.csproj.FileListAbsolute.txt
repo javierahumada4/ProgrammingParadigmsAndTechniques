@@ -1,0 +1,14 @@
+C:\Users\javie\OneDrive\Documentos\TERCERO\Paradigmas\Paradigmas1\bin\Debug\net8.0\Paradigmas1.exe
+C:\Users\javie\OneDrive\Documentos\TERCERO\Paradigmas\Paradigmas1\bin\Debug\net8.0\Paradigmas1.deps.json
+C:\Users\javie\OneDrive\Documentos\TERCERO\Paradigmas\Paradigmas1\bin\Debug\net8.0\Paradigmas1.runtimeconfig.json
+C:\Users\javie\OneDrive\Documentos\TERCERO\Paradigmas\Paradigmas1\bin\Debug\net8.0\Paradigmas1.dll
+C:\Users\javie\OneDrive\Documentos\TERCERO\Paradigmas\Paradigmas1\bin\Debug\net8.0\Paradigmas1.pdb
+C:\Users\javie\OneDrive\Documentos\TERCERO\Paradigmas\Paradigmas1\obj\Debug\net8.0\Paradigmas1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\javie\OneDrive\Documentos\TERCERO\Paradigmas\Paradigmas1\obj\Debug\net8.0\Paradigmas1.AssemblyInfoInputs.cache
+C:\Users\javie\OneDrive\Documentos\TERCERO\Paradigmas\Paradigmas1\obj\Debug\net8.0\Paradigmas1.AssemblyInfo.cs
+C:\Users\javie\OneDrive\Documentos\TERCERO\Paradigmas\Paradigmas1\obj\Debug\net8.0\Paradigmas1.csproj.CoreCompileInputs.cache
+C:\Users\javie\OneDrive\Documentos\TERCERO\Paradigmas\Paradigmas1\obj\Debug\net8.0\Paradigmas1.dll
+C:\Users\javie\OneDrive\Documentos\TERCERO\Paradigmas\Paradigmas1\obj\Debug\net8.0\refint\Paradigmas1.dll
+C:\Users\javie\OneDrive\Documentos\TERCERO\Paradigmas\Paradigmas1\obj\Debug\net8.0\Paradigmas1.pdb
+C:\Users\javie\OneDrive\Documentos\TERCERO\Paradigmas\Paradigmas1\obj\Debug\net8.0\Paradigmas1.genruntimeconfig.cache
+C:\Users\javie\OneDrive\Documentos\TERCERO\Paradigmas\Paradigmas1\obj\Debug\net8.0\ref\Paradigmas1.dll
