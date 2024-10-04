@@ -36,6 +36,30 @@
             policeCar1.PrintRadarHistory();
             policeCar2.PrintRadarHistory();
 
+            City city = new City();
+            PoliceStation policeStation = new PoliceStation();
+            city.RegisterPoliceStation(policeStation);
+
+            city.RegisterTaxi(taxi1);
+            city.RegisterTaxi(taxi2);
+
+            PoliceCar policeCarRadar1 = new PoliceCar("0003 CNP", true);
+            PoliceCar policeCarRadar2 = new PoliceCar("0004 CNP", true);
+
+            policeStation.RegisterPoliceCar(policeCar1);
+            policeStation.RegisterPoliceCar(policeCar2);
+            policeStation.RegisterPoliceCar(policeCarRadar1);
+            policeStation.RegisterPoliceCar(policeCarRadar2);
+
+            taxi1.StartRide();
+            policeCar1.StartPatrolling();
+            policeCar1.UseRadar(taxi1);
+
+            policeCarRadar1.StartPatrolling();
+            policeCarRadar1.UseRadar(taxi1);
+
+            city.DisableTaxi("0001 AAA");
+
         }
     }
 }

@@ -2,13 +2,17 @@
 {
     class City : IMessageWritter
     {
-        private PoliceStation policeStation;
+        private PoliceStation? policeStation;
         private List<Taxi> taxis;
 
         public City()
         {
-            policeStation = new PoliceStation();
             taxis = new List<Taxi>();
+        }
+
+        public void RegisterPoliceStation(PoliceStation policeStation)
+        {
+            this.policeStation = policeStation;
         }
 
         public void RegisterTaxi(Taxi taxi)
@@ -19,13 +23,18 @@
 
         public void DisableTaxi(string plate)
         {
-            foreach(Taxi taxi in taxis)
+            Taxi? removedTaxi = null;
+            foreach (Taxi taxi in taxis)
             {
-                if (taxi.GetPlate() == plate)
+                if (taxi.GetPlate().Contains(plate))
                 {
-                    taxis.Remove(taxi);
+                    removedTaxi = taxi;
                     Console.WriteLine(WriteMessage($"Taxi with plate {plate}: Removed license"));
                 }
+            }
+            if (removedTaxi != null)
+            {
+                taxis.Remove(removedTaxi);
             }
         }
 

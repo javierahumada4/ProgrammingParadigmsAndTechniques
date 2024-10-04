@@ -22,15 +22,15 @@
         {
             alert = true;
 
+            Console.WriteLine(WriteMessage($"Infractor vehicle with plate {infractorPlate}: Alert Activated. All units in patroll start pursuing."));
+
             foreach (PoliceCar policeCar in policeCars)
             {
                 if (policeCar.IsPatrolling())
                 {
                     policeCar.StartPursuing(infractorPlate);
                 }
-            }
-
-            Console.WriteLine(WriteMessage($"Infractor vehicle with plate {infractorPlate}: Alert Activated. All units in patroll start pursuing."));
+            }         
         }
 
         public string WriteMessage(string message)

@@ -4,7 +4,7 @@
     {
         private string plate;
 
-        public VehicleWithPlate(string plate, string typeOfVehicle) : base(typeOfVehicle)
+        public VehicleWithPlate(string typeOfVehicle, string plate) : base(typeOfVehicle)
         {
             this.plate = plate;
         }

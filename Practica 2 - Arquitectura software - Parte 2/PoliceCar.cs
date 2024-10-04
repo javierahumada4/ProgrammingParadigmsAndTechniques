@@ -40,7 +40,7 @@ namespace Practice2
 
                     if (alertSystem != null)
                     {
-                        if (meassurement == "Catched above legal speed.")
+                        if (meassurement.Contains("Catched above legal speed."))
                         {
                             alertSystem.ActivateAlert(vehicle.GetPlate());
                         }
