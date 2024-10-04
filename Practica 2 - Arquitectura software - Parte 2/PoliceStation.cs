@@ -11,11 +11,11 @@
             alert = false;
         }
 
-        public void RegisterPoliceCar(string plate)
+        public void RegisterPoliceCar(PoliceCar policeCar)
         {
-            PoliceCar newPoliceCar = new PoliceCar(plate, this);
-            policeCars.Add(newPoliceCar);
-            Console.WriteLine(WriteMessage($"Police Car with plate {plate}: Registered in the Police Station"));
+            policeCar.RegisterPoliceStation(this);
+            policeCars.Add(policeCar);
+            Console.WriteLine(WriteMessage($"Police Car with plate {policeCar.GetPlate()}: Registered in the Police Station"));
         }
 
         public void ActivateAlert(string infractorPlate)

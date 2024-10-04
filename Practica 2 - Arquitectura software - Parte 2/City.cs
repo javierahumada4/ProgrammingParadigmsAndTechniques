@@ -11,11 +11,10 @@
             taxis = new List<Taxi>();
         }
 
-        public void RegisterTaxi(string plate)
+        public void RegisterTaxi(Taxi taxi)
         {
-            Taxi newTaxi = new Taxi(plate);
-            taxis.Add(newTaxi);
-            Console.WriteLine(WriteMessage($"Taxi with plate {plate}: Registered license"));
+            taxis.Add(taxi);
+            Console.WriteLine(WriteMessage($"Taxi with plate {taxi.GetPlate()}: Registered license"));
         }
 
         public void DisableTaxi(string plate)

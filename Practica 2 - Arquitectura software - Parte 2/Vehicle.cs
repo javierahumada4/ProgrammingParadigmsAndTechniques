@@ -14,7 +14,7 @@
         //Override ToString() method with class information
         public override string ToString()
         {
-            return $"{GetTypeOfVehicle()}}";
+            return $"{GetTypeOfVehicle()}";
         }
 
         public string GetTypeOfVehicle()

@@ -10,13 +10,21 @@ namespace Practice2
         private SpeedRadar? speedRadar;
         private bool isPursuing;
         private string? pursuingVehiclePlate;
-        private IAlertSystem alertSystem;
+        private IAlertSystem? alertSystem;
 
-        public PoliceCar(string plate, IAlertSystem alertSystem) : base(typeOfVehicle, plate)
+        public PoliceCar(string plate, bool radar = false) : base(typeOfVehicle, plate)
         {
             isPatrolling = false;
-            speedRadar = new SpeedRadar();
             isPursuing = false;
+
+            if (radar)
+            {
+                speedRadar = new SpeedRadar();
+            }
+        }
+
+        public void RegisterPoliceStation(IAlertSystem alertSystem)
+        {
             this.alertSystem = alertSystem;
         }
 
@@ -30,9 +38,12 @@ namespace Practice2
                     string meassurement = speedRadar.GetLastReading();
                     Console.WriteLine(WriteMessage($"Triggered radar. Result: {meassurement}"));
 
-                    if (meassurement == "Catched above legal speed.")
+                    if (alertSystem != null)
                     {
-                        alertSystem.ActivateAlert(vehicle.GetPlate());
+                        if (meassurement == "Catched above legal speed.")
+                        {
+                            alertSystem.ActivateAlert(vehicle.GetPlate());
+                        }
                     }
                 }
                 else
@@ -81,6 +92,7 @@ namespace Practice2
         {
             isPursuing = true;
             pursuingVehiclePlate = infractorPlate;
+            Console.WriteLine(WriteMessage($"started pursuing vehicle with plate {infractorPlate}."));
         }
 
         public void PrintRadarHistory()
