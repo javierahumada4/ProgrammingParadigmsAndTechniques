@@ -10,15 +10,17 @@ namespace Practice2
         private SpeedRadar? speedRadar;
         private bool isPursuing;
         private string? pursuingVehiclePlate;
+        private IAlertSystem alertSystem;
 
-        public PoliceCar(string plate) : base(typeOfVehicle, plate)
+        public PoliceCar(string plate, IAlertSystem alertSystem) : base(typeOfVehicle, plate)
         {
             isPatrolling = false;
             speedRadar = new SpeedRadar();
             isPursuing = false;
+            this.alertSystem = alertSystem;
         }
 
-        public void UseRadar(Vehicle vehicle)
+        public void UseRadar(VehicleWithPlate vehicle)
         {
             if (speedRadar != null)  // Check if radar exists
             {
@@ -30,7 +32,7 @@ namespace Practice2
 
                     if (meassurement == "Catched above legal speed.")
                     {
-
+                        alertSystem.ActivateAlert(vehicle.GetPlate());
                     }
                 }
                 else
