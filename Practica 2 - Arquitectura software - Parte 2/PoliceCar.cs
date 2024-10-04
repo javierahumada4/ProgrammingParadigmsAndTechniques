@@ -7,7 +7,7 @@ namespace Practice2
         //constant string as TypeOfVehicle wont change allong PoliceCar instances
         private const string typeOfVehicle = "Police Car"; 
         private bool isPatrolling;
-        private SpeedRadar speedRadar;
+        private SpeedRadar? speedRadar;
         private bool isPursuing;
         private string? pursuingVehiclePlate;
 
@@ -20,20 +20,27 @@ namespace Practice2
 
         public void UseRadar(Vehicle vehicle)
         {
-            if (isPatrolling)
+            if (speedRadar != null)  // Check if radar exists
             {
-                speedRadar.TriggerRadar(vehicle);
-                string meassurement = speedRadar.GetLastReading();
-                Console.WriteLine(WriteMessage($"Triggered radar. Result: {meassurement}"));
-
-                if (meassurement == "Catched above legal speed.")
+                if (isPatrolling)
                 {
+                    speedRadar.TriggerRadar(vehicle);
+                    string meassurement = speedRadar.GetLastReading();
+                    Console.WriteLine(WriteMessage($"Triggered radar. Result: {meassurement}"));
 
+                    if (meassurement == "Catched above legal speed.")
+                    {
+
+                    }
+                }
+                else
+                {
+                    Console.WriteLine(WriteMessage($"has no active radar."));
                 }
             }
             else
             {
-                Console.WriteLine(WriteMessage($"has no active radar."));
+                Console.WriteLine(WriteMessage("has no radar available."));
             }
         }
 
@@ -76,10 +83,17 @@ namespace Practice2
 
         public void PrintRadarHistory()
         {
-            Console.WriteLine(WriteMessage("Report radar speed history:"));
-            foreach (float speed in speedRadar.SpeedHistory)
+            if (speedRadar != null)
             {
-                Console.WriteLine(speed);
+                Console.WriteLine(WriteMessage("Report radar speed history:"));
+                foreach (float speed in speedRadar.SpeedHistory)
+                {
+                    Console.WriteLine(speed);
+                }
+            }
+            else
+            {
+                Console.WriteLine(WriteMessage("No radar history available, radar not installed."));
             }
         }
     }
