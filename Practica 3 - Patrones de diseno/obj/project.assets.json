@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\javie\\OneDrive\\Documentos\\TERCERO\\ProgrammingParadigmsAndTechniques\\ProgrammingParadigmsAndTechniques\\Practica 3 - Patrones de diseno\\Practice3\\Practice3.csproj",
+      "projectUniqueName": "C:\\Users\\javie\\OneDrive\\Documentos\\TERCERO\\ProgrammingParadigmsAndTechniques\\ProgrammingParadigmsAndTechniques\\Practica 3 - Patrones de diseno\\Practice3.csproj",
       "projectName": "Practice3",
-      "projectPath": "C:\\Users\\javie\\OneDrive\\Documentos\\TERCERO\\ProgrammingParadigmsAndTechniques\\ProgrammingParadigmsAndTechniques\\Practica 3 - Patrones de diseno\\Practice3\\Practice3.csproj",
+      "projectPath": "C:\\Users\\javie\\OneDrive\\Documentos\\TERCERO\\ProgrammingParadigmsAndTechniques\\ProgrammingParadigmsAndTechniques\\Practica 3 - Patrones de diseno\\Practice3.csproj",
       "packagesPath": "C:\\Users\\javie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\javie\\OneDrive\\Documentos\\TERCERO\\ProgrammingParadigmsAndTechniques\\ProgrammingParadigmsAndTechniques\\Practica 3 - Patrones de diseno\\Practice3\\obj\\",
+      "outputPath": "C:\\Users\\javie\\OneDrive\\Documentos\\TERCERO\\ProgrammingParadigmsAndTechniques\\ProgrammingParadigmsAndTechniques\\Practica 3 - Patrones de diseno\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\javie\\AppData\\Roaming\\NuGet\\NuGet.Config",
