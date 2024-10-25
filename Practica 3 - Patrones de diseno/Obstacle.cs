@@ -13,7 +13,5 @@
         public int Damage { get { return _damage; } }
         public double SpeedMultiplier { get { return _speedMultiplier; } }
         public int EffectDuration { get { return _effectDuration; } }
-
-        public abstract void EffectOnTaxi(Taxi taxi);
     }
 }

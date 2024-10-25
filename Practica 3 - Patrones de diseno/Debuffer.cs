@@ -10,9 +10,5 @@
             _speedMultiplier = 0.5;
             _effectDuration = 30;
         }
-
-        public override void EffectOnTaxi(Taxi taxi)
-        {
-
-        }
     }
+}
