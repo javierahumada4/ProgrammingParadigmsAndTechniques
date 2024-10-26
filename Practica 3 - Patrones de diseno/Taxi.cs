@@ -1,6 +1,7 @@
 ﻿namespace Practice3
 {
-    public class Taxi:
+    using System.Threading;
+    public class Taxi
     {
         private static Taxi _instance;
         private int _life;
@@ -30,9 +31,30 @@
             return _instance;
         }
 
-        public void ApplyEffect(Obstacle obstacle)
+        public void ApplyObstacleEffect(Obstacle obstacle)
         {
+            Life -= obstacle.Damage;
+            if (Life < 0 ) { Life = 0; }
+            Speed *= obstacle.SpeedMultiplier;
 
+            Thread revertThread = new Thread(() => RevertSpeed(obstacle.SpeedMultiplier, obstacle.EffectDuration));
+            revertThread.Start();
+        }
+
+        private void RevertSpeed(double speedMultiplier, int effectDuration)
+        {
+            Thread.Sleep(effectDuration * 1000);
+            Speed /= speedMultiplier;
+        }
+
+        public void NotifyChanges()
+        {
+            if (Life != LastLifeValue || Speed != LastSpeedValue)
+            {
+                Console.WriteLine($"Life: {Life}, Speed: {Speed}");
+                LastLifeValue = Life;
+                LastSpeedValue = Speed;
+            }
         }
     }
 }

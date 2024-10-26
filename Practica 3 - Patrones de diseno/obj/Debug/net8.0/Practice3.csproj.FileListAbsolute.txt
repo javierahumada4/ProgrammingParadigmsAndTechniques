@@ -1,0 +1,15 @@
+C:\Users\javie\OneDrive\Documentos\TERCERO\ProgrammingParadigmsAndTechniques\ProgrammingParadigmsAndTechniques\Practica 3 - Patrones de diseno\bin\Debug\net8.0\Practice3.exe
+C:\Users\javie\OneDrive\Documentos\TERCERO\ProgrammingParadigmsAndTechniques\ProgrammingParadigmsAndTechniques\Practica 3 - Patrones de diseno\bin\Debug\net8.0\Practice3.deps.json
+C:\Users\javie\OneDrive\Documentos\TERCERO\ProgrammingParadigmsAndTechniques\ProgrammingParadigmsAndTechniques\Practica 3 - Patrones de diseno\bin\Debug\net8.0\Practice3.runtimeconfig.json
+C:\Users\javie\OneDrive\Documentos\TERCERO\ProgrammingParadigmsAndTechniques\ProgrammingParadigmsAndTechniques\Practica 3 - Patrones de diseno\bin\Debug\net8.0\Practice3.dll
+C:\Users\javie\OneDrive\Documentos\TERCERO\ProgrammingParadigmsAndTechniques\ProgrammingParadigmsAndTechniques\Practica 3 - Patrones de diseno\bin\Debug\net8.0\Practice3.pdb
+C:\Users\javie\OneDrive\Documentos\TERCERO\ProgrammingParadigmsAndTechniques\ProgrammingParadigmsAndTechniques\Practica 3 - Patrones de diseno\obj\Debug\net8.0\Practice3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\javie\OneDrive\Documentos\TERCERO\ProgrammingParadigmsAndTechniques\ProgrammingParadigmsAndTechniques\Practica 3 - Patrones de diseno\obj\Debug\net8.0\Practice3.AssemblyInfoInputs.cache
+C:\Users\javie\OneDrive\Documentos\TERCERO\ProgrammingParadigmsAndTechniques\ProgrammingParadigmsAndTechniques\Practica 3 - Patrones de diseno\obj\Debug\net8.0\Practice3.AssemblyInfo.cs
+C:\Users\javie\OneDrive\Documentos\TERCERO\ProgrammingParadigmsAndTechniques\ProgrammingParadigmsAndTechniques\Practica 3 - Patrones de diseno\obj\Debug\net8.0\Practice3.csproj.CoreCompileInputs.cache
+C:\Users\javie\OneDrive\Documentos\TERCERO\ProgrammingParadigmsAndTechniques\ProgrammingParadigmsAndTechniques\Practica 3 - Patrones de diseno\obj\Debug\net8.0\Practice3.sourcelink.json
+C:\Users\javie\OneDrive\Documentos\TERCERO\ProgrammingParadigmsAndTechniques\ProgrammingParadigmsAndTechniques\Practica 3 - Patrones de diseno\obj\Debug\net8.0\Practice3.dll
+C:\Users\javie\OneDrive\Documentos\TERCERO\ProgrammingParadigmsAndTechniques\ProgrammingParadigmsAndTechniques\Practica 3 - Patrones de diseno\obj\Debug\net8.0\refint\Practice3.dll
+C:\Users\javie\OneDrive\Documentos\TERCERO\ProgrammingParadigmsAndTechniques\ProgrammingParadigmsAndTechniques\Practica 3 - Patrones de diseno\obj\Debug\net8.0\Practice3.pdb
+C:\Users\javie\OneDrive\Documentos\TERCERO\ProgrammingParadigmsAndTechniques\ProgrammingParadigmsAndTechniques\Practica 3 - Patrones de diseno\obj\Debug\net8.0\Practice3.genruntimeconfig.cache
+C:\Users\javie\OneDrive\Documentos\TERCERO\ProgrammingParadigmsAndTechniques\ProgrammingParadigmsAndTechniques\Practica 3 - Patrones de diseno\obj\Debug\net8.0\ref\Practice3.dll

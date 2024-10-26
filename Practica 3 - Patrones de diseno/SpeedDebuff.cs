@@ -1,8 +1,8 @@
 ﻿namespace Practice3
 {
-    public class Debuffer : Obstacle
+    public class SpeedDebuff : Obstacle
     {
-        public Debuffer()
+        public SpeedDebuff()
         {
             _isFollowing = false;
             _isSolid = false;

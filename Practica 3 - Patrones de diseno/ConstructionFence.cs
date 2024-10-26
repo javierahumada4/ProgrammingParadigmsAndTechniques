@@ -1,8 +1,8 @@
 ﻿namespace Practice3
 {
-    public class Fence : Obstacle
+    public class ConstructionFence : Obstacle
     {
-        public Fence()
+        public ConstructionFence()
         {
             _isFollowing = false;
             _isSolid = true;
